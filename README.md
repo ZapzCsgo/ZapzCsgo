@@ -1,22 +1,22 @@
-# 👨‍💻 Matteo Murru — Cybersecurity & AI Security Enthusiast
+# 👨‍💻 Matteo Murru — Cybersecurity & AI Enthusiast
 
-🔐 Passionate about reverse engineering and AI security, I work at low level in C/C++ and Assembly.  
-🎯 Goal: protect critical systems and artificial intelligences from advanced attacks.
+🔐 Big interest about reverse engineering and AI, I work at low level in C/C++ and Assembly.  
+🎯 Goal: protect critical systems and reach the limit in AI.
 
 ---
 
 ## 🚀 Skills
 
 - 🧠 Languages: C, C++, ASM (x86/ARM), Python, Lua  
-- ⚙️ Tools: Ghidra, Binary Ninja, Burp Suite, ImGui, x64dbg, Cheat Engine  
-- 🔬 Domains: Reverse Engineering, Windows Internals, Anti-Debug, Obfuscation, AI Security
+- ⚙️ Tools: Binary Ninja, Burp Suite, ImGui, Cheat Engine  
+- 🔬 Interest : Reverse Engineering, Windows Internals, Anti-Debug, AI 
 
 ---
 
 ## 🌱 Currently
 
-- Advancing on my school projects at 42  
-- Studying **LLM security** and adversarial attacks  
+- Advancing on my school projects at 42 School (the best in the world ☺️)
+- Studying **LLM**  
 - Participating in **CTFs** and challenges on **Root Me** and **HTB**
 
 ---
