@@ -7,7 +7,7 @@
 
 ## 🚀 Skills
 
-- 🧠 Languages: C, C++, ASM (x86/ARM), Python, Lua  
+- 🧠 Languages: C, C++, ASM, Python, Lua  
 - ⚙️ Tools: Binary Ninja, Burp Suite, ImGui, Cheat Engine  
 - 🔬 Interest : Reverse Engineering, Windows Internals, Anti-Debug, AI 
 
