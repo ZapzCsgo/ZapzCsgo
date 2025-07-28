@@ -26,4 +26,4 @@
 📧 mmurru421337@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/matteo-murru-775720274/)  
 
-Si vous souhaitez accéder a mes projets lié a 42, merci de me contacter, pour des raisons de confidentialité et de respect envers la charte de l'école, je ne peux rendre mes projets publiques
+## ⚠️ Si vous souhaitez accéder a mes projets lié a 42, merci de me contacter, pour des raisons de confidentialité et de respect envers la charte de l'école, je ne peux rendre mes projets publiques ⚠️
