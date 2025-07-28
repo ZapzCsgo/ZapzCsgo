@@ -1,14 +1,14 @@
 # 👨‍💻 Zapz — Cybersecurity & AI Enthusiast
 
 🔐 Big interest about reverse engineering and AI, I work at low level in C/C++ and Assembly.  
-🎯 Goal: protect critical systems and reach the limit in AI.
+🎯 Goal: protect critical systems and crack them.
 
 ---
 
 ## 🚀 Skills
 
 - 🧠 Languages: C, C++, ASM, Python, Lua  
-- ⚙️ Tools: Binary Ninja, Burp Suite, ImGui, Cheat Engine  
+- ⚙️ Tools: Binary Ninja, x64dbg, Cheat Engine, HXD ...
 - 🔬 Interest : Reverse Engineering, Windows Internals, Anti-Debug, AI 
 
 ---
@@ -16,8 +16,7 @@
 ## 🌱 Currently
 
 - Advancing on my school projects at 42 School (the best in the world ☺️)
-- Studying **LLM**  
-- Participating in **CTFs** and challenges on **Root Me** and **HTB**
+- Participating in **CTFs** and challenges on **Root Me** and **Game Hacking**
 
 ---
 
