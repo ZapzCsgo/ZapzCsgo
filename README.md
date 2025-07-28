@@ -1,4 +1,4 @@
-# 👨‍💻 Zapz — Cybersecurity & AI Enthusiast
+# 👨‍💻 Zapz — Cybersecurity & a side AI Curious
 
 🔐 Big interest about reverse engineering and AI, I work at low level in C/C++ and Assembly.  
 🎯 Goal: protect critical systems and crack them.
