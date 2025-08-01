@@ -25,7 +25,10 @@
 📧 mmurru421337@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/matteo-murru-775720274/)  
 
-![Root‑me‑stats](https://root-me-diff.vercel.app/rm-gh?nickname=ZapzCsgo42&gstats=show&style=dark)
+<h3 align="center">📊 Mes stats Root Me</h3>
 
+<p align="center">
+  <img src="https://root-me-diff.vercel.app/rm-gh?nickname=ZapzCsgo42&gstats=show&style=dark" alt="Root‑me stats de ZapzCsgo42" />
+</p>
 
 ## ⚠️ Si vous souhaitez accéder a mes projets lié a 42, merci de me contacter, pour des raisons de confidentialité et de respect envers la charte de l'école, je ne peux rendre mes projets publiques ⚠️
