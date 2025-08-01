@@ -25,4 +25,7 @@
 📧 mmurru421337@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/matteo-murru-775720274/)  
 
+![Root Me Score](https://img.shields.io/badge/RootMe-User%20ZapzCsgo42:%201234%20pts-blueviolet?style=for-the-badge&logo=hackthebox)
+
+
 ## ⚠️ Si vous souhaitez accéder a mes projets lié a 42, merci de me contacter, pour des raisons de confidentialité et de respect envers la charte de l'école, je ne peux rendre mes projets publiques ⚠️
