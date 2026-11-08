@@ -1,40 +1,38 @@
-<img src="assets/banner.png" alt="Matteo Murru, DevOps / Cloud / SRE apprenticeship, 42 Nice" width="100%" />
+<img src="assets/banner.png" alt="Matteo Murru, alternance DevOps / Cloud / SRE, 42 Nice" width="100%" />
 
-I'm a 42 Nice student looking for a **DevOps / Cloud / SRE apprenticeship** in Nice, Sophia Antipolis or Monaco.
+Étudiant à 42 Nice, je cherche une **alternance DevOps / Cloud / SRE d'un an** à Nice, Sophia Antipolis ou Monaco. Je postule aussi à des **stages en IA agentique**.
 
-I run apps with real users on my own: I ship them, automate them, monitor them, and fix them when they break.
+Je fais tourner seul une app en production, avec de vrais utilisateurs. Des agents Claude Code écrivent la plupart de son code. Mon travail, c'est tout ce qui les empêche de casser la prod.
 
-<p>
-  <img src="https://skillicons.dev/icons?i=linux,bash,docker,githubactions,cloudflare,vercel,nginx,postgres,prisma,nextjs,ts,nodejs,python,c&theme=dark" alt="Linux, Bash, Docker, GitHub Actions, Cloudflare, Vercel, Nginx, PostgreSQL, Prisma, Next.js, TypeScript, Node.js, Python, C" />
-</p>
+## Projets
 
-## GaijinToSensei, in production
+**GaijinToSensei**, [gajintosensei.com](https://gajintosensei.com)
+App pour apprendre le japonais : Next.js, PostgreSQL (Neon) avec Prisma, Redis (Upstash), Cloudflare Workers. Chaque mise en prod passe par un script : préversion sans trafic, contrôles, activation, nouveau contrôle, et retour seul à la version précédente si ça échoue. Quand le compte gratuit Vercel a été coupé, je l'ai migrée sur Cloudflare Workers le jour même, et le temps de réponse du serveur est passé de 0,26-0,30 s à 0,07-0,09 s. [Étude de cas](https://zapz.work/projets/gaijintosensei/)
 
-[gajintosensei.com](https://gajintosensei.com) teaches Japanese to French speakers: lessons, quizzes, an AI that corrects your sentences, Stripe subscriptions. I build it and run it end to end.
+**La chaîne d'agents de GaijinToSensei**
+Trois agents Claude Code travaillent en parallèle, chacun sur sa branche (`w1`, `w2`, `w3`). Ils ont écrit 479 des 724 commits du dépôt. Un jour, une migration lancée par un agent a visé la base de prod au lieu d'une base jetable et l'a vidée. Je l'ai restaurée par point-in-time restore, j'ai écrit le postmortem, et depuis les agents n'ont plus aucun droit destructif sur la prod. [Postmortem](https://zapz.work/projets/incident-base-de-donnees/)
 
-<img src="assets/ship.png" alt="Deployment pipeline: git push, CI, preview with 46 page checks, production, monitoring with automatic rollback" width="100%" />
+**[steam-roblox-agents](https://github.com/ZapzCsgo/steam-roblox-agents)**
+Système multi-agents LangGraph en Python : il dit si un jeu Steam en tendance mérite une adaptation Roblox. Un agent critique renvoie la note à l'analyste quand elle ne tient pas. Il est évalué sur 21 cas passés ; la méthode et le détail sont dans le dépôt.
 
-- [Case study](https://zapz.work/en/projects/gaijintosensei/): how several agents and I ship to prod safely.
-- [Postmortem](https://zapz.work/en/projects/database-incident/): the day a migration wiped the production database, and how it came back.
+**Infra perso**
+Un VPS Linux où des agents tournent la nuit en service systemd, sans droits root, avec 25 tâches planifiées (garde de prod, publications, alertes). 5 sites statiques se publient seuls sur Cloudflare Pages. [Détails](https://zapz.work/projets/infra-perso/)
 
-<img src="assets/gts.webp" alt="GaijinToSensei home page" width="100%" />
+**zapz.work**
+Mon portfolio : Astro statique, CI GitHub Actions (lint, build, liens, recherche de secrets, Lighthouse), image Docker sur GHCR, hébergé sur Cloudflare Workers. [Comment il est déployé](https://zapz.work/comment-ce-site-est-deploye/)
 
-## MetaAOE, serverless on Cloudflare
+## Outils
 
-An in-game build-order overlay for Age of Empires (Overwolf app), where players publish and vote on their own builds.
+- En prod : Linux (systemd, cron), Bash, Git, Cloudflare (Workers, Pages, Tunnel), PostgreSQL, Prisma, Redis, Node.js, TypeScript, Python, Claude Code
+- En apprentissage : Docker, Ansible, GitHub Actions, LangGraph, AWS (Cloud Practitioner en cours)
+- À 42 : C, C++, assembleur x86-64 ([libasm](https://github.com/ZapzCsgo/Libasm)), appels système, format ELF
 
-<img src="assets/metaaoe.png" alt="MetaAOE architecture: Overwolf app, Cloudflare Pages Functions, D1, Workers with cron for the Discord bot" width="100%" />
+## Contact
 
-## Self-hosted infra
+contact@zapz.work | [zapz.work](https://zapz.work) | [LinkedIn](https://www.linkedin.com/in/matteo-murru-775720274/) | [CV (PDF)](https://zapz.work/cv.pdf)
 
-A Linux VPS running Docker, Cloudflare Tunnel, scheduled jobs and the deploy tooling for all of the above. [More here](https://zapz.work/en/projects/personal-infra/).
+---
 
-## Background
+### In English
 
-- Low level first: C, C++ and x86-64 assembly at 42, reverse engineering with x64dbg and Binary Ninja.
-- Worked in Tokyo as a localization QA tester at Keywords Studios.
-- French, English (professional), Japanese (JLPT N5).
-
-**[zapz.work](https://zapz.work/en/)** · [LinkedIn](https://www.linkedin.com/in/matteo-murru-775720274/) · contact@zapz.work · [CV (PDF)](https://zapz.work/cv-en.pdf)
-
-<sub>Most of my 42 projects stay private, as the school's rules ask.</sub>
+42 Nice student looking for a 1-year DevOps / Cloud / SRE work-study contract in Nice, Sophia Antipolis or Monaco, and applying to agentic AI internships. I run an app in production with real users on my own. Claude Code agents wrote 479 of its 724 commits; I build the guardrails around them: checked releases with automatic rollback, a postmortem after an agent's migration wiped the production database, and no destructive rights for agents since. Portfolio and resume: [zapz.work/en](https://zapz.work/en/).
